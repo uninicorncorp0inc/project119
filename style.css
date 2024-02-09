@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(247, 0, 255);
+}
+#puntuacion{
+    font-size: 25px;
+    margin-left: 30px;
+}
+#temporizador{
+    font-size: 25px;
+    float:right;
+    margin-right: 80px;
+}
+#dibujo{
+    color: blueviolet;
+}
+
+
+
+canvas{
+    border: 5px solid #18ffff;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+        margin-top: 50px;
+        animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px #00ff91;}
+    to{box-shadow: 1px 1px 38px #18ffff;}
+
+}
+
+h1{
+ font-family: 'Protest Revolution', sans-serif;
+ color: aqua;
+}
+
+
+#dibujo{
+    color: snow;
+    font-size: large;
+}
+#confidence{
+    color: snow;
+    font-size: large;
+}
+
+#label{
+    color: snow;
+    font-size: large;
+}
+
+#puntuacion{
+    color: snow;
+}
+#temporizador{
+    color: snow;
+}
